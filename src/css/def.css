@@ -51,11 +51,6 @@ h2 {
     margin: 0;
 }
 
-.main_area {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
 nav ul {
     margin: 0;
     padding: 0;
@@ -122,20 +117,50 @@ nav ul li:first-child {
     display: block;
 }
 
-.sidenav {
-    width: 20%;
-    z-index: 1;
-    top: 20px;
-    background: transparent;
+.sidebar {
+    margin-top: 2vh;
+    padding: 0;
+    height: 80vh;
+    width: 65%;
+    background-color: #f1f1f1;
+    overflow-y: scroll;
+    top: 0;
+    bottom: 0;
+    display: inline-block;
 }
 
-.sidenav a {
-    text-decoration: none;
-    font-size: 18px;
-    color: #FFFFFF;
+/* Sidebar links */
+.sidebar a {
     display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
 }
 
+/* Active/current link */
+.sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 .content {
-    margin-left: 20%; /* Same as the width of the sidebar */
+    display: inline-block;
+    top: 7%;
+    vertical-align: top;
+    margin-left: 10px;
+    height: 80vh;
+    width: 50vw;
+    position: absolute;
+    overflow-y: auto;
+}
+
+.container {
+    display: inline-block;
 }
