@@ -121,3 +121,21 @@ nav ul li:first-child {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.sidenav {
+    width: 20%;
+    z-index: 1;
+    top: 20px;
+    background: transparent;
+}
+
+.sidenav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #FFFFFF;
+    display: block;
+}
+
+.content {
+    margin-left: 20%; /* Same as the width of the sidebar */
+}
