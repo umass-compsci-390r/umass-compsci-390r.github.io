@@ -121,8 +121,8 @@ nav ul li:first-child {
     margin-top: 2vh;
     padding: 0;
     height: 80vh;
-    width: 65%;
-    background-color: #f1f1f1;
+    width: 20vh;
+    background-color: #434343;
     overflow-y: scroll;
     top: 0;
     bottom: 0;
@@ -132,7 +132,8 @@ nav ul li:first-child {
 /* Sidebar links */
 .sidebar a {
     display: block;
-    color: black;
+    font-size: 14px;
+    color: white;
     padding: 16px;
     text-decoration: none;
 }
