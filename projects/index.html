@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - COMPSCI 390R</title>
+    <link rel="stylesheet" href="/css/def.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js" />
+</head>
+
+<body>
+    <div class="center-text">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html" class="logo">
+                        <b>COMPSCI 390R</b><br>Reverse Engineering & Vulnerability Analysis
+                    </a>
+                </li>
+                <li>
+                    <a class="nav_button" href="/index.html">Overview</a>
+                </li>
+                <li class="dropdown">
+                    <button class="dropbtn">Materials</button>
+                    <div class="dropdown-content">
+                        <a href="/lectures/index.html">Lectures</a>
+                        <a href="/homeworks/index.html">Homeworks</a>
+                        <a href="/projects/index.html">Projects</a>
+                        <a href="/labs/index.html">Labs</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div class="main_area">
+            <div class="container">
+    <div class="sidebar">
+        <a class="opt_button" type="projects" id="00" href="#">Project 0</a>
+        <a class="opt_button" type="projects" id="01" href="#">Project 1</a>
+        <a class="opt_button" type="projects" id="01" href="#">Project 2</a>
+        <a class="opt_button" type="projects" id="01" href="#">Project 3</a>
+        <a class="opt_button" type="projects" id="01" href="#">Project 4</a>
+        <a class="opt_button" type="projects" id="01" href="#">Project 5</a>
+    </div>
+    <div class="content">
+        <h1>Projects</h1>
+        <p>Here, you can find a list of projects.</p>
+    </div>
+</div>
+        </div>
+        <footer>
+            <p>© 2022 - 2023 UMass CyberSecurity Club. Powered by IWS.</p>
+        </footer>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $(".opt_button").bind('click', function () {
+                let cat = $(this).attr('type'), sel = $(this).attr('id');
+                if (cat !== undefined && sel !== undefined) {
+                    $('.content').load(`/${cat}/${sel}/index.html`);
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
