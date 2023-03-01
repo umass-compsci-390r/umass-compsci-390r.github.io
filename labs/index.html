@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Labs - COMPSCI 390R</title>
-    <link rel="stylesheet" href="/css/def.css" />
+    <link rel="stylesheet" href="css/def.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js" />
 </head>
 
@@ -19,15 +19,15 @@
                     </a>
                 </li>
                 <li>
-                    <a class="nav_button" href="/index.html">Overview</a>
+                    <a class="nav_button" href="index.html">Overview</a>
                 </li>
                 <li class="dropdown">
                     <button class="dropbtn">Materials</button>
                     <div class="dropdown-content">
-                        <a href="/lectures/index.html">Lectures</a>
-                        <a href="/homeworks/index.html">Homeworks</a>
-                        <a href="/projects/index.html">Projects</a>
-                        <a href="/labs/index.html">Labs</a>
+                        <a href="lectures/index.html">Lectures</a>
+                        <a href="homeworks/index.html">Homeworks</a>
+                        <a href="projects/index.html">Projects</a>
+                        <a href="labs/index.html">Labs</a>
                     </div>
                 </li>
             </ul>
@@ -54,7 +54,7 @@
                 console.log(cat);
                 console.log(sel);
                 if (cat !== undefined && sel !== undefined) {
-                    $('.content').load(`/${cat}/${sel}/index.html`);
+                    $('.content').load(`${cat}/${sel}/index.html`);
                 }
             });
         });
