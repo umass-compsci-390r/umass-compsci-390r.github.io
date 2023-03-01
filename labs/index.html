@@ -51,6 +51,8 @@
         $(document).ready(function () {
             $(".opt_button").bind('click', function () {
                 let cat = $(this).attr('type'), sel = $(this).attr('id');
+                console.log(cat);
+                console.log(sel);
                 if (cat !== undefined && sel !== undefined) {
                     $('.content').load(`/${cat}/${sel}/index.html`);
                 }
