@@ -1,0 +1,72 @@
+<h1>GDB</h1>
+<h3>Essentials</h3>
+<pre><code>help                            - List commands
+break *&lt;addr&gt;                   - Set a breakpoint at &lt;addr&gt;  
+s/n                             - Source-level step/next
+si/ni                           - Instruction-level step/next
+finish                          - Continue until function return  
+run                             - Run binary  
+continue                        - Continue execution  
+info break                      - List set breakpoints  
+info register                   - List out registers
+disassemble &lt;function&gt;          - List out assembly instructions of function
+backtrace                       - List out function callstack
+start                           - Set breakpoint at the main function and run
+maintenance info sections       - List all currently mapped sections
+</code></pre>
+<h3>Printing</h3>
+<pre><code>print /&lt;format&gt; &lt;addr&gt;          - Print out data at an address  
+x/&lt;num&gt;&lt;format&gt;&lt;size&gt; &lt;addr&gt;    - Print out &lt;num&gt; values of the given format/size at &lt;addr&gt;  
+
+The difference between 'print' and 'x' is that 'x' dereferences the address before printing
+    example usage: x/4xw 0x123  - Print out 4 hexadecimal words at 0x123
+
+Common Formats:
+    x - hex
+    d - decimal
+    f - float
+    s - string
+    i - instruction
+
+Common Sizes:
+    b - byte
+    h - halfword
+    w - word
+    g - double-word
+</code></pre>
+<h3>PwnDBG extension</h3>
+<p>Docs: https://browserpwndbg.readthedocs.io/en/docs/</p>
+<pre><code>vmmap                           - Print out virtual memory listing
+vis                             - Print out listing of current heap view
+bins                            - Print out all heap-allocator bins
+top_chunk                       - Print out top-chunk
+</code></pre>
+<h1>Pwntools</h1>
+<p>Docs: https://docs.pwntools.com/en/stable/</p>
+<h3>Template</h3>
+<pre><code class="language-py">from pwn import *
+
+elf = context.binary = ELF('./vuln')
+libc = elf.libc
+p = elf.process()
+
+if args.GDB:
+    gdb.attach(p, gdbscript=f'''
+        continue
+    ''')
+
+p.interactive()
+</code></pre>
+<h3>Commonly used functions</h3>
+<pre><code>p.send(data)                    - Send data to process's stdin
+p.sendline(data)                - Send data + a newline to process's stdin
+p.recvline()                    - Receive a line from process' stdout
+p.recvuntil('AAA')              - Receve bytes from process' stdout until 'AAA' is encountered
+p.clean()                       - Read in all data from process' stdout
+p64(&lt;addr&gt;)                     - Packs the integer &lt;addr&gt; into a little-endian buffer
+u64(&lt;buf&gt;)                      - Unpacks the bytes from &lt;buf&gt; into an integer
+puts_plt = elf.plt['puts']      - Retrieve address of plt-puts from binary
+puts_got = elf.got['puts']      - Retrieve address of got-puts from binary
+system = libc.symbols['system']             - Retrieve address of system() function from libc
+binsh = next(libc.search(b'/bin/sh\x00'))   - Retrieve address of '/bin/sh\0' string from libc
+</code></pre>
