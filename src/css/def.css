@@ -16,6 +16,7 @@ body {
 
 .topnav {
     overflow: hidden;
+    padding: 5px;
 }
 
 .topnav a {
@@ -157,6 +158,7 @@ nav ul li:first-child {
     display: inline-block;
     top: 7%;
     vertical-align: top;
+    padding: 4px;
     margin-left: 10px;
     height: 80vh;
     width: 50vw;
