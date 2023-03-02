@@ -9,7 +9,6 @@ layout: cview.njk
         <a class="opt_button" type="projects" id="01" href="#">Project 1</a>
         <a class="opt_button" type="projects" id="02" href="#">Project 2</a>
         <a class="opt_button" type="projects" id="03" href="#">Project 3</a>
-        <a class="opt_button" type="projects" id="midterm" href="#">Midterm</a>
         <a class="opt_button" type="projects" id="04" href="#">Project 4</a>
         <a class="opt_button" type="projects" id="05" href="#">Project 5</a>
         <a class="opt_button" type="projects" id="06" href="#">Project 6</a>
