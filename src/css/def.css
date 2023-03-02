@@ -5,6 +5,7 @@ body {
     background-color: rgb(44, 44, 44);
     color: white;
     height: auto;
+    padding: 5px;
 }
 
 .center-text {
