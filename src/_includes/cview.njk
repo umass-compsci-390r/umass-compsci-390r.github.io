@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
     <link rel="stylesheet" href="/css/def.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 </head>
 
 <body>
@@ -14,7 +14,7 @@
         <nav>
             <ul>
                 <li>
-                    <a href="index.html" class="logo">
+                    <a href="/index.html" class="logo">
                         <b>COMPSCI 390R</b><br>Reverse Engineering & Vulnerability Analysis
                     </a>
                 </li>
@@ -43,6 +43,8 @@
         $(document).ready(function () {
             $(".opt_button").bind('click', function () {
                 let cat = $(this).attr('type'), sel = $(this).attr('id');
+                console.log(cat);
+                console.log(sel);
                 if (cat !== undefined && sel !== undefined) {
                     $('.content').load(`/${cat}/${sel}/index.html`);
                 }
