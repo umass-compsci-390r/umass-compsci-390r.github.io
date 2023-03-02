@@ -164,6 +164,7 @@ nav ul li:first-child {
     width: 50vw;
     position: absolute;
     overflow-y: auto;
+    z-index: 0;
 }
 
 .container {
