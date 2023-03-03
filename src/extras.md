@@ -6,6 +6,7 @@ layout: cview.njk
 <div class="container">
     <div class="sidebar">
         <a class="opt_button" type="extras" id="cheatsheet" href="#">GDB & pwntools Cheat Sheet</a>
+        <a class="opt_button" type="extras" id="assembly_reading" href="#">X86 Assembly Reading</a>
         <a class="opt_button" type="extras" id="sample_writeup" href="#">Sample Writeup</a>
     </div>
     <div class="content">

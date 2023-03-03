@@ -5,7 +5,7 @@ layout: cview.njk
 
 <div class="container">
     <div class="sidebar">
-        <a class="opt_button" type="lectures" id="review" href="#">Introduction & COMPSCI 230 Review</a>
+        <a class="opt_button" type="lectures" id="review" href="#">Introduction & Systems Review</a>
         <a class="opt_button" type="lectures" id="vuln_patt" href="#">Common Vulnerability Patterns</a>
         <a class="opt_button" type="lectures" id="buff_oflw" href="#">Buffer Overflows</a>
         <a class="opt_button" type="lectures" id="rop" href="#">Return-Oriented Programming</a>
