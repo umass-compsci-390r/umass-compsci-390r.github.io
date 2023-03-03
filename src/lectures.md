@@ -6,7 +6,7 @@ layout: cview.njk
 <div class="container">
     <div class="sidebar">
         <a class="opt_button" type="lectures" id="review" href="#">Introduction & Systems Review</a>
-        <a class="opt_button" type="lectures" id="vuln_patt" href="#">Common Vulnerability Patterns</a>
+        <a class="opt_button" type="lectures" id="code_audit" href="#">Code Auditing</a>
         <a class="opt_button" type="lectures" id="buff_oflw" href="#">Buffer Overflows</a>
         <a class="opt_button" type="lectures" id="rop" href="#">Return-Oriented Programming</a>
         <a class="opt_button" type="lectures" id="fmt_str" href="#">Format String Explotation</a>
@@ -20,6 +20,7 @@ layout: cview.njk
         <a class="opt_button" type="lectures" id="dyn_analysis" href="#">Dynamic Analysis</a>
         <a class="opt_button" type="lectures" id="cb_symb_exec" href="#">Constraint-Based Symbolic Execution</a>
         <a class="opt_button" type="lectures" id="adv_analysis" href="#">Advanced Program Analysis</a>
+        <a class="opt_button" type="lectures" id="kernel" href="#">Kernel</a>
     </div>
     <div class="content">
         <h1>Lectures</h1>
