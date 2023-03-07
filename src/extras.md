@@ -8,6 +8,7 @@ layout: cview.njk
         <a class="opt_button" type="extras" id="cheatsheet" href="#">GDB & pwntools Cheat Sheet</a>
         <a class="opt_button" type="extras" id="assembly_reading" href="#">X86 Assembly Reading</a>
         <a class="opt_button" type="extras" id="sample_writeup" href="#">Sample Writeup</a>
+        <a class="opt_button" type="extras" id="mitigation_history" href="#">X86 Mitigation History</a>
     </div>
     <div class="content">
         <h1>Extra Materials</h1>
