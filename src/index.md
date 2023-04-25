@@ -21,6 +21,7 @@ Main topics covered in this course:
 - Code auditing and vulnerability analysis
 - Basics of Stack, Heap, and Kernel exploitation including techniques like ROP and Tcache Dups
 - Exploit mitigations such as ASLR, NX, stack cookies, etc
+- Automated Program Analysis using Pin, Llvm, symbolic execution and Ghidra Scripting
 
 ## Course Goals
 By the end of this course, you will:

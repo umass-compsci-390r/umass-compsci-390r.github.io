@@ -9,6 +9,7 @@ layout: cview.njk
         <a class="opt_button" type="extras" id="assembly_reading" href="#">X86 Assembly Reading</a>
         <a class="opt_button" type="extras" id="sample_writeup" href="#">Sample Writeup</a>
         <a class="opt_button" type="extras" id="mitigation_history" href="#">X86 Mitigation History</a>
+        <a class="opt_button" type="extras" id="afl" href="#">AFL Technical Paper</a>
         <a class="opt_button" type="extras" id="binary_analysis" href="#">Phrack Binary Analysis</a>
         <a class="opt_button" type="extras" id="pin" href="#">Intel Pin</a>
         <a class="opt_button" type="extras" id="symbolic_taint" href="#">DTA & Symbolic</a>
