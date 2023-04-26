@@ -2,11 +2,10 @@
 title: Overview - COMPSCI 390R
 layout: base.njk
 ---
-
-## Course Staff
-Instructors: Brian Levine, Steven Rossi, and Gilbert Hoermann<br>
-Teaching Assistant: Alexander Dennis<br>
-Undergraduate Course Assistants: Joshua Barrett, Ibrahima Keita
+<br>
+## Instructors: 
+<a href="https://twitter.com/steven_rossi_">Steven Rossi (1st Half)</a><br>
+<a href="https://twitter.com/seal9055">Gilbert Hoermann (2nd Half)</a><br>
 
 ## Course Description
 Software is everywhere and many developers aren't aware of how to properly write secure code. We

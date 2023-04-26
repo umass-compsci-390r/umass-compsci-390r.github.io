@@ -11,15 +11,13 @@ layout: cview.njk
         <a class="opt_button" type="lectures" id="rop" href="#">Return-Oriented Programming</a>
         <a class="opt_button" type="lectures" id="fmt_str" href="#">Format String Explotation</a>
         <a class="opt_button" type="lectures" id="mitigations" href="#">Exploit Mitigations</a>
-        <a class="opt_button" type="lectures" id="heap_alloc" href="#">Heap Allocation</a>
-        <a class="opt_button" type="lectures" id="heap_vuln" href="#">Heap Exploitation</a>
-        <a class="opt_button" type="lectures" id="malware" href="#">Malware & Obfuscation</a>
-        <a class="opt_button" type="lectures" id="sw_analysis" href="#">Software Analysis</a>
+        <a class="opt_button" type="lectures" id="heap" href="#">Heap Exploitation</a>
+        <a class="opt_button" type="lectures" id="program_analysis" href="#">Program Analysis</a>
+        <a class="opt_button" type="lectures" id="fuzzing" href="#">Fuzzing</a>
+        <a class="opt_button" type="lectures" id="dynamic_analysis" href="#">Dynamic Analysis</a>
         <a class="opt_button" type="lectures" id="static_analysis" href="#">Static Analysis</a>
-        <a class="opt_button" type="lectures" id="auto_analysis" href="#">Automated Analysis</a>
-        <a class="opt_button" type="lectures" id="dyn_analysis" href="#">Dynamic Analysis</a>
-        <a class="opt_button" type="lectures" id="cb_symb_exec" href="#">Constraint-Based Symbolic Execution</a>
-        <a class="opt_button" type="lectures" id="adv_analysis" href="#">Advanced Program Analysis</a>
+        <a class="opt_button" type="lectures" id="symb_exec" href="#">Symbolic Execution</a>
+        <a class="opt_button" type="lectures" id="malware" href="#">Malware & Obfuscation</a>
         <a class="opt_button" type="lectures" id="kernel" href="#">Kernel</a>
     </div>
     <div class="content">
