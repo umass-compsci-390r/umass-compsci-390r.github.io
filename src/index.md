@@ -3,7 +3,8 @@ title: Overview - COMPSCI 390R
 layout: base.njk
 ---
 <br>
-## Instructors: 
+
+## Instructors:   
 <a href="https://twitter.com/steven_rossi_">Steven Rossi (1st Half)</a><br>
 <a href="https://twitter.com/seal9055">Gilbert Hoermann (2nd Half)</a><br>
 
