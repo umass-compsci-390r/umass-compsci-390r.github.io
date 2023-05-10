@@ -1,0 +1,249 @@
+<h1>Resources</h1>
+<p>Collection of resources on various cybersec/systems topics</p>
+<h2>Table of Contents</h2>
+<p><a href="#1">Basics</a><br>
+<a href="#2">Linux Userland Exploitation</a><br>
+<a href="#3">Linux Kernel Exploitation</a><br>
+<a href="#4">Browser Exploitation</a><br>
+<a href="#5">Embedded Security</a><br>
+<a href="#6">Fuzzing</a><br>
+<a href="#7">Malware</a><br>
+<a href="#8">Windows Userland Exploitation</a><br>
+<a href="#9">Game Hacking</a><br>
+<a href="#10">Appsec</a><br>
+<a href="#11">Compilers</a><br>
+<a href="#12">Optimized Programming</a><br>
+<a href="#13">Computer Architecture</a><br>
+<a href="#14">OSDev</a><br>
+<a href="#15">Hypervisor</a><br>
+<a href="#16">Program Analysis</a><br>
+<a href="#17">Other</a></p>
+<p><a name="1"/></a></p>
+<h3>Basics</h3>
+<p><ins>ASM/Reverse Engineering:</ins></p>
+<ul>
+<li><a href="https://azeria-labs.com/writing-arm-assembly-part-1/">arm_azeria</a></li>
+<li><a href="https://download-mirror.savannah.gnu.org/releases/pgubook/ProgrammingGroundUp-1-0-booksize.pdf">x86_Programming from the ground
+up</a></li>
+<li><a href="https://www.begin.re/">begin.re</a></li>
+<li><a href="https://www.youtube.com/watch?v=d4Pgi5XML8E">Hackadayu</a></li>
+<li><a href="https://beginners.re/main.html">Beginners.re</a></li>
+<li><a href="https://www.amazon.com/Reversing-Secrets-Engineering-Eldad-Eilam/dp/0764574817">Secrets of RE</a></li>
+<li><a href="https://thinkst.com/resources/papers/BlackHat-USA-2010-Meer-History-of-Memory-Corruption-Attacks-wp.pdf">PWN Timeline</a></li>
+</ul>
+<p><ins>Secure Coding/Code Auditing:</ins></p>
+<ul>
+<li><a href="https://www.amazon.com/Secure-Coding-2nd-Software-Engineering/dp/0321822137">Secure Coding in C/C++</a></li>
+<li><a href="https://www.amazon.com/Art-Software-Security-Assessment-Vulnerabilities/dp/0321444426">Art of software Security
+Assessment</a></li>
+</ul>
+<p><ins>Other:</ins></p>
+<ul>
+<li><a href="https://diveintosystems.org/book/">Dive into Systems</a></li>
+<li><a href="https://nostarch.com/binaryanalysis">Practical Binary Analysis</a></li>
+<li><a href="https://pages.cs.wisc.edu/~remzi/OSTEP/">OS in 3 Steps</a></li>
+</ul>
+<p><a name="2"/></a></p>
+<h3>Linux Userland Exploitation</h3>
+<p><ins>Stack</ins></p>
+<ul>
+<li><a href="https://pwn.college">pwn.college</a></li>
+<li><a href="https://ropemporium.com/">Rop Emporium</a></li>
+<li><a href="https://guyinatuxedo.github.io/">Nightmare</a></li>
+<li><a href="https://ctf-wiki.org/pwn/readme/">CTF-Wiki</a></li>
+<li><a href="https://wargames.ret2.systems/">Ret2 Systems</a> (paid)</li>
+<li><a href="https://ir0nstone.gitbook.io/notes">Ironstone</a></li>
+<li><a href="https://github.com/seal9055/PWN_Zero2Hero">PWN Practice</a> (mine)</li>
+</ul>
+<p><ins>Heap</ins></p>
+<ul>
+<li><a href="https://azeria-labs.com/heap-exploitation-part-1-understanding-the-glibc-heap-implementation/">azeria</a></li>
+<li><a href="https://www.udemy.com/course/linux-heap-exploitation-part-1/">Heaplab Udemy</a> (paid)</li>
+<li><a href="https://github.com/shellphish/how2heap">Shellphish How2Heap</a></li>
+<li><a href="https://github.com/StarCross-Tech/heap_exploit_2.31">Starcross</a></li>
+<li><a href="https://faraz.faith/2019-10-12-picoctf-2019-heap-challs/">Faith</a></li>
+<li><a href="https://heap-exploitation.dhavalkapil.com/">Dhavalkapil</a></li>
+</ul>
+<p><a name="3"/></a></p>
+<h3>Linux Kernel Exploitation</h3>
+<p><ins>Kernel basics/dev</ins></p>
+<ul>
+<li><a href="https://lwn.net/Kernel/LDD3/">Linux Device Drivers</a></li>
+<li><a href="https://linux-kernel-labs.github.io/refs/heads/master/">Linux Kernel Labs</a></li>
+<li><a href="https://www.amazon.com/Understanding-Linux-Kernel-Third-Daniel/dp/0596005652">Understanding the Linux Kernel</a></li>
+<li><a href="https://www.amazon.com/Linux-Kernel-Development-Cookbook-programming/dp/178995343X">Linux Kernel Programming P1</a></li>
+<li><a href="https://www.amazon.com/Linux-Kernel-Programming-Part-Synchronization-ebook/dp/B08ZSV58G8">Linux Kernel Programming P2</a></li>
+</ul>
+<p><ins>Exploitation</ins></p>
+<ul>
+<li><a href="https://lkmidas.github.io/posts/20210123-linux-kernel-pwn-part-1/">lkmidas</a></li>
+<li><a href="https://seal9055.com/blog/kernel/return_oriented_programming">Kernel ROP</a> (mine)</li>
+<li><a href="https://ptr-yudai.hatenablog.com/entry/2020/03/16/165628#LeakAARAAWRIP%E5%88%B6%E5%BE%A1%E3%81%AB%E4%BD%BF%E3%81%88%E3%82%8B%E6%A7%8B%E9%80%A0%E4%BD%93%E4%B8%80%E8%A6%A7">ptr-yudai</a></li>
+<li><a href="https://blog.lexfo.fr/cve-2017-11176-linux-kernel-exploitation-part1.html">Lexfo</a></li>
+<li><a href="https://argp.github.io/2012/01/03/linux-kernel-heap-exploitation/">Kernel Heap Exploitation</a></li>
+<li><a href="https://pr0cf5.github.io/ctf/2019/10/10/balsn-ctf-krazynote.html">Pr0cf5</a></li>
+</ul>
+<p><a name="4"/></a></p>
+<h3>Browser Exploitation</h3>
+<ul>
+<li><a href="https://seal9055.com/blog/browser/browser_architecture">seal9055_Complete Introduction</a> (mine)</li>
+<li><a href="https://v8.dev/blog">Official V8 Blog</a></li>
+<li><a href="https://pwnbykenny.com/2020/07/05/v8-objects-and-their-structures/">pwnbykenny V8 Objects</a></li>
+<li><a href="https://www.jayconrod.com/posts/52/a-tour-of-v8--object-representation">Jayconrod V8 Objects</a></li>
+<li><a href="https://doar-e.github.io/blog/2019/01/28/introduction-to-turbofan/">Doar</a></li>
+<li><a href="http://www.phrack.org/issues/70/9.html">Saelo Phrack</a></li>
+<li><a href="https://faraz.faith/2019-12-13-starctf-oob-v8-indepth/">Faith</a></li>
+<li><a href="https://mgp25.com/browser-exploitation/">MGP25</a></li>
+<li><a href="https://blog.ret2.io/2018/06/05/pwn2own-2018-exploit-development/">Ret2</a></li>
+<li><a href="https://googleprojectzero.blogspot.com/2020/09/jitsploitation-one.html">Google Project Zero</a></li>
+<li><a href="https://omahaproxy.appspot.com/">Chrome Version Tracker</a></li>
+<li><a href="https://github.com/StarCrossPortal/bug-hunting-101?s=09">Practice Exercises</a></li>
+</ul>
+<p><a name="5"/></a></p>
+<h3>Embedded Security</h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=LSQf3iuluYo&amp;list=PLoFdAHrZtKkhcd9k8ZcR4th8Q8PNOx7iU">Embedded Intro Videos</a></li>
+<li><a href="https://www.thirtythreeforty.net/posts/">&amp;&gt;/dev/null</a></li>
+<li><a href="https://debugmen.dev/hardware-series/2022/02/18/enabot_series_part_1.html">Debugmen Enabot</a></li>
+<li><a href="https://embeddedbits.org/introduction-embedded-linux-security-part-1/">Embedded Bits</a></li>
+<li><a href="https://www.sans.org/reading-room/whitepapers/testing/paper/34022">Sans Whitepaper Router Hack</a></li>
+<li><a href="https://blog.grimm-co.com/">Grimm</a></li>
+<li><a href="http://www.autosec.org/pubs/cars-oakland2010.pdf">Car Hacking Paper</a></li>
+<li><a href="https://www.youtube.com/channel/UCBrKPoIYCS7BlT7Q_UiBwAQ">Flashback Team</a></li>
+<li><a href="https://www.youtube.com/watch?v=qti5_NOLE8M&amp;list=PLSkhUfcCXvqGGQN8ATgWI0XYGvU-jq0uG">Printer Hacking Stream</a></li>
+<li><a href="https://nostarch.com/hardwarehacking">Hardware Hacking Handbook</a></li>
+<li><a href="https://ktln2.org/experiments-around-side-channels/">Side channels</a></li>
+</ul>
+<p><a name="6"/></a></p>
+<h3>Fuzzing</h3>
+<p><ins>General</ins></p>
+<ul>
+<li><a href="https://www.fuzzingbook.org/">Fuzzing Book</a></li>
+<li><a href="https://gamozolabs.github.io/">Gamozolabs</a></li>
+<li><a href="https://github.com/antonio-morales/Fuzzing101">Fuzzing101 Practice</a></li>
+</ul>
+<p><ins>Papers</ins></p>
+<ul>
+<li><a href="https://github.com/seal9055/sfuzz/blob/main/fuzzing.md">Collection of papers + intro</a> (mine)</li>
+</ul>
+<p><ins>Codeql</ins></p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=-bJ2Ioi7Icg&amp;ab_channel=RedTeamVillage">Readteam-village</a></li>
+<li><a href="https://securitylab.github.com/research/rhino-in-the-room/">Security-lab</a></li>
+<li><a href="https://www.youtube.com/watch?v=nvCd0Ee4FgE&amp;ab_channel=GitHub">Github</a></li>
+</ul>
+<p><a name="7"/></a></p>
+<h3>Malware</h3>
+<ul>
+<li><a href="https://nostarch.com/malware">Practical Malware Analysis</a></li>
+<li><a href="https://www.amazon.com/Windows-Internals-Part-architecture-management/dp/0735684189">Windows Internals</a></li>
+<li><a href="https://0xpat.github.io/Malware_development_part_1/">0xpat Malware Dev</a></li>
+<li><a href="https://class.malware.re/">Uni Course</a></li>
+<li><a href="https://malwareunicorn.org/workshops/re101.html#0">Malware Unicorn</a></li>
+<li><a href="https://courses.zero2auto.com/">Zero2Auto</a> (paid)</li>
+<li><a href="https://exploitreversing.com/category/malwareanalysis-3/">MAS Series</a></li>
+</ul>
+<p><a name="8"/></a></p>
+<h3>Windows Userland Exploitation</h3>
+<ul>
+<li><a href="https://www.amazon.com/Windows-Internals-Part-architecture-management/dp/0735684189">Windows Internals</a></li>
+<li><a href="https://www.corelan.be/index.php/articles/">Corelan</a></li>
+<li><a href="https://www.fuzzysecurity.com/tutorials.html">Fuzzysecurity</a></li>
+<li><a href="https://github.com/r0r0x-xx/OSED-Pre#DEP-Bypass">OSED Prep</a></li>
+<li><a href="https://epi052.gitlab.io/notes-to-self/blog/">Epi052</a></li>
+<li><a href="https://github.com/massgravel/Microsoft-Activation-Scripts">Windows Activation</a></li>
+</ul>
+<p><a name="9"/></a></p>
+<h3>Game Hacking</h3>
+<ul>
+<li><a href="https://guidedhacking.com/threads/ghb0-game-hacking-bible-introduction.14450/">Guided Hacking</a></li>
+<li><a href="https://gamehacking.academy/about">Gamehacking Academy</a></li>
+<li><a href="https://seal9055.com/blog/game/dark_souls_3">seal9055_Minesweeper/ds3 Intro</a> (mine)</li>
+<li><a href="https://kasimir123.github.io/blog-posts/JourneyToSavagePlanet.html">Abraxus_GH Intro</a></li>
+</ul>
+<p><a name="10"/></a></p>
+<h3>Appsec</h3>
+<ul>
+<li><a href="https://www.amazon.com/Art-Software-Security-Assessment-Vulnerabilities/dp/0321444426">Art of software Security Assessment</a></li>
+<li><a href="https://pentesterlab.com/">Pentesterlab</a></li>
+<li><a href="https://0xboku.com/2021/09/14/0dayappsecBeginnerGuide.html">Beginner Guide</a></li>
+<li><a href="https://www.sourcecodester.com/">Source-code Tester</a> (practice)</li>
+</ul>
+<p><a name="11"/></a></p>
+<h3>Compilers</h3>
+<p><ins>General</ins></p>
+<ul>
+<li><a href="https://craftinginterpreters.com/">Crafting Interpreters</a></li>
+<li><a href="https://www.amazon.com/Engineering-Compiler-Keith-Cooper/dp/012088478X">Engineering a Compiler</a></li>
+</ul>
+<p><ins>Backend</ins></p>
+<ul>
+<li><a href="https://www.youtube.com/user/pronesto/videos">Youtube</a></li>
+<li><a href="https://www.cs.utexas.edu/~pingali/CS380C/2010/papers/ssaCytron.pdf">cytron_Generate SSA</a></li>
+<li><a href="https://hal.inria.fr/inria-00558509v2/document">Computing Liveness for SSA</a></li>
+<li><a href="http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=018086FDA4BF35452D6324C96C3EC9D1?doi=10.1.1.162.2590&amp;rep=rep1&amp;type=pdf">Linear Scan Register Allocation</a></li>
+<li><a href="http://web.cs.ucla.edu/~palsberg/course/cs132/linearscan.pdf">Linear Scan Regalloc</a></li>
+<li><a href="https://blog.llvm.org/2011/09/greedy-register-allocation-in-llvm-30.html">llvm regalloc</a></li>
+<li><a href="https://www.cs.cornell.edu/courses/cs6120/2020fa/self-guided/">Cornell Advanced Compilers</a></li>
+</ul>
+<p><a name="12"/></a></p>
+<h3>Optimized Programming</h3>
+<ul>
+<li><a href="https://www.agner.org/">Agner Fog Optimization Manuals</a></li>
+<li><a href="https://en.algorithmica.org/hpc/">Algorithms for modern Hardware</a></li>
+<li><a href="https://www.youtube.com/channel/UC4N2-1Wky5rzPgH4rv3tSFg/videos">Denis Yaroshevskiy</a></li>
+<li><a href="https://www.youtube.com/channel/UC3stBkbGaerSBDqKfe-NKsg/featured">Jonas Skeppstedt</a></li>
+<li><a href="https://www.youtube.com/user/pronesto">Fernando</a></li>
+</ul>
+<p><a name="13"/></a></p>
+<h3>Computer Architecture</h3>
+<ul>
+<li><a href="https://www.amazon.com/Computer-Architecture-Quantitative-John-Hennessy/dp/012383872X">Hennessy</a></li>
+<li><a href="https://www.lighterra.com/papers/modernmicroprocessors/">Sumamry</a></li>
+<li><a href="https://faculty.cs.niu.edu/~winans/notes/patmc.pdf">Measurements</a></li>
+<li><a href="https://www.youtube.com/channel/UCcRaa0AcYX32c0m8wJJHNWg/videos">Fabian Giesen youtube</a></li>
+<li><a href="https://www.youtube.com/watch?v=9nuAjYRbITQ&amp;t=13975s&amp;ab_channel=Nerd%27slesson">Princeton</a></li>
+<li><a href="https://www.youtube.com/watch?v=AJBmIaUneB0&amp;list=PL5Q2soXY2Zi_FRrloMa2fUYWPGiZUBQo2&amp;ab_channel=OnurMutluLectures">ETH Zuerich</a></li>
+<li><a href="https://www.lighterra.com/papers/modernmicroprocessors/">90-min Intro</a></li>
+</ul>
+<p><ins>Microarchitecture Bugs</ins></p>
+<ul>
+<li><a href="https://arxiv.org/pdf/1801.01203.pdf">Spectre</a></li>
+<li><a href="https://gamozolabs.github.io/metrology/2019/08/19/sushi_roll.html">Sushi Roll</a></li>
+<li><a href="https://xenproject.org/2012/06/13/the-intel-sysret-privilege-escalation/">Sysret</a></li>
+<li><a href="https://hackaday.com/2017/12/28/34c3-hacking-into-a-cpus-microcode/">Hackaday</a></li>
+</ul>
+<p><a name="14"/></a></p>
+<h3>OSDev</h3>
+<ul>
+<li><a href="https://os.phil-opp.com/">OS.phil-opp</a></li>
+<li><a href="https://osblog.stephenmarz.com/">Creating RISCV-OS in rust</a></li>
+<li><a href="https://github.com/cfenollosa/os-tutorial">OS Tutorial</a></li>
+<li><a href="https://github.com/gamozolabs/chocolate_milk">Chocolate Milk</a></li>
+</ul>
+<p><a name="15"/></a></p>
+<h3>Hypervisor</h3>
+<ul>
+<li><a href="https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html">Intel Manuals</a></li>
+<li><a href="https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/tlfs/virtual-interrupts">HyperV Docs</a></li>
+<li><a href="https://www.usenix.org/system/files/woot19-paper_zhao.pdf">VMware exploit paper</a></li>
+<li><a href="https://rayanfam.com/topics/hypervisor-from-scratch-part-1/">Hypervisor from Scratch</a></li>
+<li><a href="https://revers.engineering/7-days-to-virtualization-a-series-on-hypervisor-development/">Writing a hypervisor</a></li>
+<li><a href="https://blog.talosintelligence.com/2020/08/barbervisor.html">talos-barbervisor</a></li>
+<li><a href="https://github.com/ionescu007/SimpleVisor">Simplevisor</a></li>
+</ul>
+<p><a name="16"/></a></p>
+<h3>Program Analysis</h3>
+<ul>
+<li><a href="https://arxiv.org/pdf/1610.00502.pdf">SE Survey</a></li>
+<li><a href="https://oaklandsok.github.io/papers/shoshitaishvili2016.pdf">PA SOK</a></li>
+<li><a href="https://users.ece.cmu.edu/~aavgerin/papers/Oakland10.pdf">CMU DTA/FSE Intro</a></li>
+<li>Principles of program analysis (book)</li>
+<li>Data Flow Analysis: Theory and Practice (book)</li>
+<li><a href="https://www.youtube.com/watch?v=v0dKdfmziHs&amp;list=PLF3-CvSRq2SYXEiS80KuZQ80q8K2aHLQX">Intro Videos</a></li>
+</ul>
+<p><a name="17"/></a></p>
+<h3>Other</h3>
+<ul>
+<li><a href="https://oaklandsok.github.io/">SOK Collection</a></li>
+</ul>
