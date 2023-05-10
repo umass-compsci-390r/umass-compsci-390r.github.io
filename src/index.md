@@ -29,3 +29,4 @@ By the end of this course, you will:
 - Learn how to reverse engineer closed source programs.
 - Analyze programs for potential security vulnerabilities and learn more secure coding practices.
 
+[syllabus.pdf](/resources/cs390r_syllabus_schedule.pdf)

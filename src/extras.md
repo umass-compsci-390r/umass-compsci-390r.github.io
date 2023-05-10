@@ -15,6 +15,7 @@ layout: cview.njk
         <a class="opt_button" type="extras" id="binary_analysis" href="#">Phrack Binary Analysis</a>
         <a class="opt_button" type="extras" id="pin" href="#">Intel Pin</a>
         <a class="opt_button" type="extras" id="symbolic_taint" href="#">DTA & Symbolic</a>
+        <a class="opt_button" type="extras" id="resources" href="#">Additional Resources</a>
     </div>
     <div class="content">
         <h1>Extra Materials</h1>
