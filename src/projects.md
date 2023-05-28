@@ -12,6 +12,7 @@ layout: cview.njk
         <a class="opt_button" type="projects" id="04" href="#">Project 4</a>
         <a class="opt_button" type="projects" id="05" href="#">Project 5</a>
         <a class="opt_button" type="projects" id="06" href="#">Project 6</a>
+        <a class="opt_button" type="projects" id="07" href="#">Final Presentation</a>
     </div>
     <div class="content">
         <h1>Projects</h1>
