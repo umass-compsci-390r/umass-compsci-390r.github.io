@@ -1,5 +1,5 @@
 ---
-title: Overview - UMass COMPSCI 390R
+title: Overview - COMPSCI 390R
 layout: base.njk
 ---
 <br>
